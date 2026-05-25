@@ -1,1 +1,188 @@
-piem.cl
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>En Construcción - Piem SPA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: #87CEEB;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            padding: 3rem 2.5rem;
+            border-radius: 0;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .logo-wrapper {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid #eef2f6;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+            width: 280px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a2c3e;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.3px;
+        }
+
+        .sub {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #2c5a7a;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .servicios {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: #1e3b4f;
+            background: #f0f8ff;
+            padding: 1.2rem;
+            margin: 1.5rem 0;
+            border-left: 4px solid #87CEEB;
+        }
+
+        .direccion {
+            font-size: 1rem;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+
+        .contacto {
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .contacto a {
+            color: #1e5a7a;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid #cbd5e1;
+            font-size: 1rem;
+        }
+
+        .contacto a:hover {
+            border-bottom-color: #1e5a7a;
+        }
+
+        .contacto p {
+            margin: 0.6rem 0;
+            font-size: 1rem;
+            color: #1e2f3a;
+        }
+
+        .estado {
+            margin-top: 2rem;
+            display: inline-block;
+            background: #facc15;
+            color: #1e293b;
+            padding: 0.5rem 1.5rem;
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 650px) {
+            body {
+                padding: 1rem;
+            }
+            .card {
+                padding: 2rem 1.5rem;
+            }
+            .logo {
+                width: 200px;
+            }
+            .logo-wrapper {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .servicios {
+                font-size: 1rem;
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo {
+                width: 160px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .card {
+                padding: 1.5rem 1.2rem;
+            }
+            .servicios {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="logo-wrapper">
+            <img src="logo.png" alt="Piem SPA" class="logo">
+        </div>
+
+        <h1>Piem SPA</h1>
+
+        <div class="sub">
+            PRESTACIÓN DE SERVICIOS DE <br/>MANTENIMIENTO PLANIFICADO Y REPARACIÓN
+        </div>
+
+        <div class="direccion">
+            📍 Federico Errázuriz 684, Local 7<br>
+            Pudahuel, Santiago, Región Metropolitana
+        </div>
+
+        <div class="contacto">
+            <p>📧 <a href="mailto:piem.mantenciones@gmail.com">piem.mantenciones@gmail.com</a></p>
+            <p>📞 <a href="tel:+56959847641">+56 9 5984 7641</a></p>
+        </div>
+
+        <div class="estado">
+            🚧 EN CONSTRUCCIÓN
+        </div>
+    </div>
+</div>
+</body>
+</html>
